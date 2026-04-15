@@ -1,0 +1,30 @@
+auth-rbac-mern/
+│
+├── frontend/
+│   ├── src/
+│   │   ├── pages/
+│   │   │   ├── Login.jsx
+│   │   │   ├── Dashboard.jsx
+│   │   │   ├── Admin.jsx
+│   │   │
+│   │   ├── components/
+│   │   │   ├── ProtectedRoute.jsx
+│   │   │   ├── RoleRoute.jsx
+│   │   │
+│   │   ├── App.jsx
+│   │   ├── main.jsx
+│   │
+│   ├── package.json
+│
+├── backend/
+│   ├── middleware/
+│   │   ├── auth.js
+│   │   ├── role.js
+│   │
+│   ├── routes/
+│   │   ├── auth.js
+│   │
+│   ├── server.js
+│   ├── package.json
+│
+└── README.md
